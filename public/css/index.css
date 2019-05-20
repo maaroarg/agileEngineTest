@@ -1,0 +1,11 @@
+div.container {
+  margin-top: 2em;
+}
+
+.credit-color {
+  color: green;
+}
+
+.debit-color {
+  color: red;
+}
