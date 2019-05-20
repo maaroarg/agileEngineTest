@@ -32,5 +32,18 @@ npm start
 ### API
 http://localhost:3000/transactions/ [GET/POST]
 
+### Transaction Model
+```bash
+{
+type*	string
+  Enum:
+      [ credit, debit ]
+amount*	number
+  Transaction numeric value. Incrementing or decrementing the account balance, based on the transaction type.
+}
+```
+
+http://localhost:3000/transactions/:tid [GET]
+
 ### FrontEnd
 http://localhost:5000/
